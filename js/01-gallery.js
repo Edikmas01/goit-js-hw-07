@@ -17,9 +17,10 @@ const createGallery = ({ preview, original, description }) => {
             />
         </a>
         </li>
+        
     `;
 };
-
+console.log('g');
 const galleryMarkup = galleryItems.map(createGallery).join("");
 
 gallery.insertAdjacentHTML("afterbegin", galleryMarkup);
